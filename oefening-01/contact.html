@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactpagina</title>
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!-- JavaScript: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+   
+      <!-- eigen geschreven css voor jouw html-bestand -->
+      <link rel="STYLESHEET" href="./css/style.css" type="text/css">
+      
+</head>
+<body class="p-3 m-0 border-0 bd-example">
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/coffee.png" alt="Koffie & co" width="100" height="100">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">subpagina 1</a></li>
+                  <li><a class="dropdown-item" href="#">subpagina 2</a></li>
+                  <li><a class="dropdown-item" href="#">subpagina 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
+              <button class="btn btn-sm btn-outline-secondary" type="submit">zoeken</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header class="row m-5">
+        <h1 class="col display-2 koffiebruin text-center">may the coffee<br>be with you</h1>
+      </header>
+      <div class="row">
+      <main class="col-md-9">
+            <article class="col-12 mb-3">
+            <h2 class="text-uppercase fs-4 fw-bolder pt-3">shop</h2>
+            <p>Stap binnen in onze online koffie-oase, waar elke boon een verhaal vertelt en elke slok een reis is door smaakvolle aroma's. Ontdek een uitgelezen selectie van zorgvuldig geselecteerde koffiebonen van over de hele wereld, gebrand om de meest verfijnde smaakprofielen te onthullen. Of je nu een doorgewinterde koffiekenner bent of net begint aan je koffieavontuur, wij bieden een scala aan producten en accessoires om je te begeleiden op jouw reis naar de perfecte kop koffie. Dompel jezelf onder in onze wereld van heerlijke geuren, rijke smaken en ongeëvenaarde kwaliteit - welkom bij de ultieme bestemming voor koffieliefhebbers.</p>
+          </article>
+        <form action="#" method="POST">
+            <fieldset class="row p-3 mb-3">
+                <legend class="text-uppercase fs-4 fw-bolder pt-3">gegevens</legend>
+                <div class="col-md-6 mb-3">
+                <label for="voornaam" class="form-label">Voornaam</label>
+                <input type="text" class="form-control" id="voornaam" required>                
+                </div>
+                <div class="col-md-6 mb-3">
+                <label for="achternaam" class="form-label">Achternaam</label>
+                <input type="text" class="form-control" id="achternaam" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <label for="mobiel" class="form-label">Mobiel</label>
+                <input type="tel" class="form-control" id="mobiel">                
+                </div>
+                <div class="col-md-6 mb-3">
+                <label for="geboortedatum" class="form-label">Geboortedatum</label>
+                <input type="date" class="form-control" id="geboortedatum">
+                </div>
+            </fieldset>
+        
+            <fieldset class="row p-3 mb-3">
+                <legend class="text-uppercase fs-4 fw-bolder pt-3">accountgegevens</legend>
+                <div class="col-md-12 mb-3">
+                <label for="email" class="form-label">e-mail</label>
+                <input type="email" class="form-control" id="e-mail" required>                
+                </div>
+                <div class="col-md-6 mb-3">
+                <label for="paswoord" class="form-label">Paswoord</label>
+                <input type="password" class="form-control" id="paswoord" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <label for="bevestig paswoord" class="form-label">Bevestig paswoord</label>
+                <input type="password" class="form-control" id="bevestigpaswoord" required>                
+                </div>       
+            </fieldset>
+        
+            <fieldset class="row p-3 mb-3">
+                <legend class="text-uppercase fs-4 fw-bolder pt-3">adresgegevens</legend>
+                <div class="col-md-12 mb-3">
+                    <label for="adres" class="form-label">Adres</label>
+                    <input type="text" class="form-control" id="adres" required>                
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="postcode" class="form-label">Postcode</label>
+                    <input type="text" class="form-control" id="postcode" required>
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label for="stad" class="form-label">Stad</label>
+                    <input type="text" class="form-control" id="stad" required>                
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="Kies een land" class="form-label">Kies een land</label>
+                      <select class="form-select" aria-label="Kies een land" required>
+                        <option selected>België</option>
+                        <option value="1">Duitsland</option>
+                        <option value="2">Frankrijk</option>
+                        <option value="3">Luxemburg</option>
+                        <option value="4">Nederland</option>
+                        <option value="5">Verenigd Koninkrijk</option>
+                      </select>        
+                </div>            
+        </fieldset>
+
+        <fieldset class="row p-3 mb-3">
+            <legend class="text-uppercase fs-4 fw-bolder pt-3">koffie-achtergrond</legend>
+            <div class="col-md-6">
+                <label for="ik koop" class="form-label">Ik koop:</label>
+                    <select class="form-select" aria-label="keuze uit koffiebonen">
+                        <option value="1">koffiebonen</option>
+                        <option value="2">gemalen koffie</option>
+                        <option value="3">oploskoffie</option>
+                    </select>        
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="enbenfan" class="form-label">en ben fan van: </label>
+                    <select class="form-select" aria-label="keuze uit koffiebonen">
+                        <option value="1">Illy</option>
+                        <option value="2">Lavazza</option>
+                        <option value="3">Starbucks</option>
+                        <option value="1">Gran Maestro</option>
+                        <option value="2">Italiano</option>
+                        <option value="3">Celeste d’Oro</option>
+                    </select>        
+            </div>                       
+            <div class="col-md-12 mb-3">
+                <label for="tevredenheidklant" class="form-label">Hoe tevreden ben je van ons</label>
+                <input type="range" class="form-range" min="0" max="10" step="1" id="tevredenheidklant">
+            </div>
+        </fieldset>
+      </form>
+      <button type="button" class="btn btn-primary">Verzenden</button>
+    </main>
+    <aside class="col-md-3">
+        <h2 class="text-uppercase fs-4 fw-bolder pt-3">contact</h2>
+        <p>COFFEE shop<br>
+          email <a href="mailto:mail@ap-coffeeshop.be">mail@ap-coffeeshop.be</a><br>
+          phone +32 123 / 45 67 89</p>
+        <ul class="list-inline socials">
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com" target="_blank">
+              <i class="bi bi-youtube koffiebruin fs-3"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="bi bi-instagram koffiebruin fs-3"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="bi bi-facebook koffiebruin fs-3"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/" target="_blank">
+              <i class="bi bi-twitter koffiebruin fs-3"></i>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  <footer class="container-fluid text-center h6 small p-4">&copy; 2024 koffie enzo</footer>
+</body>
+</html>
